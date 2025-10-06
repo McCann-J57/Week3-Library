@@ -22,7 +22,7 @@ namespace Library
         }
 
         // Example of a method within the Book class
-        void DisplayInfo()
+        public void DisplayInfo()
         {
             Console.WriteLine($"Book title: {Title}");
             Console.WriteLine($"Book Author: {Author}");
